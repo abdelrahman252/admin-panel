@@ -1,0 +1,71 @@
+.single{
+    display: flex;
+    width: 100%;
+}
+.single .singleContainer{
+    flex: 6;
+}
+.single .bottomT .titleB{
+    font-size: 16px;
+    color: lightgray;
+    margin-bottom: 20px;
+}
+.single .top{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+.single .top .editButton{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    padding: 5px;
+    color: #7451f8;
+    background-color: #7551f818;
+    cursor: pointer;
+    border-bottom-left-radius: 5px;
+}
+.single .top .left{
+    flex: 1;
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 20px;
+    position: relative;
+
+}
+.single .top .left .item{
+    display: flex;
+    gap: 20px;
+}
+.single .top .left .item .itemImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 60px;
+}
+.single .top .left .item .details .itemName{
+    margin-bottom: 10px;
+    color: #555;
+}
+.single .top .left .item .details .detailItem{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.single .top .left .item .details .itemKey{
+    font-weight: bold;
+    color: gray;
+    margin-right: 5px;
+}
+.single .top .left .item .details .itemValue{
+    font-weight: 300;
+}
+
+.single .top .right{
+    flex: 2;
+}
+.single .bottomT{
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 20px;
+    margin:10px 20px;
+}
